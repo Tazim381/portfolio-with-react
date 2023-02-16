@@ -1,0 +1,25 @@
+.navbar {
+  color: rebeccapurple;
+  display: flex;
+  height: 20vh;
+  background-color: black;
+  color: white;
+}
+.name {
+  display: flex;
+  width: 50%;
+  padding-left: 10%;
+}
+.aboutNavbar {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  list-style: none;
+}
+
+.aboutNavbar button {
+  cursor: pointer;
+  background-color: black;
+  border: 1px solid rgba(62, 229, 229, 0.9);
+  color: rgba(62, 229, 229, 0.9);
+}
