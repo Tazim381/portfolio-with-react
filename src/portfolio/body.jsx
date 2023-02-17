@@ -16,14 +16,14 @@ function Body() {
         </div>
         <div className="educationalBackground">
           <h2>Language Skill</h2>
-          <h4>C C++ Java Python Javascript Perl </h4>
+          <p>C, C++, Java, Python, Javascript</p>
         </div>
         <div className="educationalBackground">
           <h2>Number of Projects</h2>
           <p>C++: 1</p>
           <p>Java: 1</p>
-          <p>React:2</p>
-          <p>Javascript:2</p>
+          <p>React: 2</p>
+          <p>Javascript: 2</p>
         </div>
       </div>
     </div>
