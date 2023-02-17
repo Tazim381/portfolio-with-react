@@ -1,0 +1,18 @@
+.intro {
+  color: white;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+  text-align: center;
+}
+
+.educationalBackground {
+  padding: 30px;
+  border: 1px solid rgba(62, 229, 229, 0.9);
+}
+
+.wrapEducationBackground {
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  padding-bottom: 5vh;
+}
