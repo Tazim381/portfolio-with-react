@@ -1,12 +1,12 @@
 import "./body.css";
 
-function Education() {
+function Education(props) {
     return (
         <div className="educationalBackground">
         <h2>Eduction</h2>
-        <p>Institute: Jahangirnagar University</p>
-        <p>Department: Computer Science and Engineering</p>
-        <p>Current Studying Year: Honors 3rd year</p>
+        <p>Institute: {props.institute}</p>
+        <p>Department: {props.department}</p>
+        <p>Current Studying Year: {props.year}</p>
       </div>
     )
 }
@@ -35,7 +35,7 @@ function Projects() {
 function Intro(props) {
     return (
         <div className="intro">
-        <h1>{`Hello This is ${props.name}`}</h1>
+        <h1>Hello This is {props.name}</h1>
         <p>I am a Front End Web developer.</p>
       </div>
     )
@@ -45,7 +45,7 @@ function Body() {
     <div className="body">
       <Intro name="Tazim"/>
       <div className="wrapEducationBackground">
-        <Education/>
+        <Education institute="Jahangirnagar University" department="Computer Science and Engineering" year=" Honors 3rd year"/>
         <Skill/>
         <Projects/>
       </div>
